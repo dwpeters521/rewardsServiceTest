@@ -1,0 +1,25 @@
+#
+# Server
+#
+__pycache__/
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+#
+# Client
+#
+**/node_modules
+client/build
+client/npm-debug.log*
+client/yarn-debug.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#
+# misc
+#
+.idea
+.DS_Store
